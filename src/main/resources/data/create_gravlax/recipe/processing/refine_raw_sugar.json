@@ -1,0 +1,14 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "create_gravlax:raw_sugar"
+    }
+  ],
+  "results": [
+    {
+      "count": 2,
+      "id": "create_gravlax:sugar_crystal"
+    }
+  ]
+}

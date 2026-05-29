@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:water_bucket"
+    },
+    {
+      "item": "create_gravlax:salt"
+    }
+  ],
+  "result": {
+    "id": "create_gravlax:salt_water_bucket",
+    "count": 1
+  }
+}

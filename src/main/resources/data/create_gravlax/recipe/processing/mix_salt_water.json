@@ -1,0 +1,19 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "type": "neoforge:single",
+      "amount": 1000,
+      "fluid": "minecraft:water"
+    },
+    {
+      "item": "create_gravlax:salt"
+    }
+  ],
+  "results": [
+    {
+      "amount": 1000,
+      "id": "create_gravlax:salt_water"
+    }
+  ]
+}

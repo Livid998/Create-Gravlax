@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "create_gravlax:block/raw_rock_salt_block"
+      },
+      {
+        "model": "create_gravlax:block/raw_rock_salt_block",
+        "y": 180
+      },
+      {
+        "model": "create_gravlax:block/raw_rock_salt_block_mirrored"
+      },
+      {
+        "model": "create_gravlax:block/raw_rock_salt_block_mirrored",
+        "y": 180
+      }
+    ]
+  }
+}

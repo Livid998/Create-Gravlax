@@ -1,0 +1,22 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "farmersdelight"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    {
+      "item": "farmersdelight:salmon_slice"
+    },
+    {
+      "item": "create_gravlax:gravlax_cure"
+    }
+  ],
+  "result": {
+    "id": "create_gravlax:gravlax_salmon_slice",
+    "count": 1
+  }
+}

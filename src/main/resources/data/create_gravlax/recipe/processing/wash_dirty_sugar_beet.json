@@ -1,0 +1,21 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "create_gravlax:dirty_sugar_beet"
+    }
+  ],
+  "results": [
+    {
+      "id": "create_gravlax:sugar_beet"
+    },
+    {
+      "chance": 0.3,
+      "id": "create_gravlax:mud_clump"
+    },
+    {
+      "chance": 0.1,
+      "id": "minecraft:dead_bush"
+    }
+  ]
+}

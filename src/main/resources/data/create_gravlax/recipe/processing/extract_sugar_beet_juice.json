@@ -1,0 +1,81 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "item": "create_gravlax:sugar_beet_cossettes"
+    },
+    {
+      "item": "create_gravlax:sugar_beet_cossettes"
+    },
+    {
+      "item": "create_gravlax:sugar_beet_cossettes"
+    },
+    {
+      "item": "create_gravlax:sugar_beet_cossettes"
+    },
+    {
+      "item": "create_gravlax:sugar_beet_cossettes"
+    },
+    {
+      "item": "create_gravlax:sugar_beet_cossettes"
+    },
+    {
+      "item": "create_gravlax:sugar_beet_cossettes"
+    },
+    {
+      "item": "create_gravlax:sugar_beet_cossettes"
+    },
+    {
+      "item": "create_gravlax:sugar_beet_cossettes"
+    },
+    {
+      "item": "create_gravlax:sugar_beet_cossettes"
+    },
+    {
+      "item": "create_gravlax:sugar_beet_cossettes"
+    },
+    {
+      "item": "create_gravlax:sugar_beet_cossettes"
+    },
+    {
+      "item": "create_gravlax:sugar_beet_cossettes"
+    },
+    {
+      "item": "create_gravlax:sugar_beet_cossettes"
+    },
+    {
+      "item": "create_gravlax:sugar_beet_cossettes"
+    },
+    {
+      "item": "create_gravlax:sugar_beet_cossettes"
+    },
+    {
+      "item": "create_gravlax:sugar_beet_cossettes"
+    },
+    {
+      "item": "create_gravlax:sugar_beet_cossettes"
+    },
+    {
+      "item": "create_gravlax:sugar_beet_cossettes"
+    },
+    {
+      "item": "create_gravlax:sugar_beet_cossettes"
+    },
+    {
+      "type": "neoforge:single",
+      "amount": 1000,
+      "fluid": "minecraft:water"
+    }
+  ],
+  "results": [
+    {
+      "amount": 1000,
+      "id": "create_gravlax:sugar_beet_juice"
+    },
+    {
+      "count": 10,
+      "id": "create_gravlax:beet_pulp"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "create_gravlax:salt"
+    },
+    {
+      "item": "create_gravlax:leaping_essence"
+    }
+  ],
+  "result": {
+    "id": "create_gravlax:hearty_spice",
+    "count": 1
+  }
+}

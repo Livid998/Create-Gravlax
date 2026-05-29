@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:salmon"
+    },
+    {
+      "item": "create_gravlax:gravlax_cure"
+    }
+  ],
+  "result": {
+    "id": "create_gravlax:gravlax_salmon",
+    "count": 1
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "SSS",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "create_gravlax:salt"
+    }
+  },
+  "result": {
+    "id": "create_gravlax:salt_block",
+    "count": 1
+  }
+}

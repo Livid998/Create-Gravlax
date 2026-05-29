@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "create_gravlax:salt"
+    },
+    {
+      "item": "create_gravlax:strength_essence"
+    }
+  ],
+  "result": {
+    "id": "create_gravlax:smoky_spice",
+    "count": 1
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "type": "neoforge:single",
+      "amount": 400,
+      "fluid": "create_gravlax:molasses"
+    },
+    {
+      "type": "neoforge:single",
+      "amount": 1000,
+      "fluid": "create_gravlax:lime_water"
+    }
+  ],
+  "results": [
+    {
+      "amount": 1000,
+      "id": "create_gravlax:calcium_saccharate"
+    }
+  ]
+}

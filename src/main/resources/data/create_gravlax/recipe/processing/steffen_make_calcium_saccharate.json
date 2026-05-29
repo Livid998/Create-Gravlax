@@ -1,0 +1,51 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "type": "neoforge:single",
+      "amount": 400,
+      "fluid": "create_gravlax:molasses"
+    },
+    {
+      "type": "neoforge:single",
+      "amount": 1000,
+      "fluid": "minecraft:water"
+    },
+    {
+      "item": "create_gravlax:lime_powder"
+    },
+    {
+      "item": "create_gravlax:lime_powder"
+    },
+    {
+      "item": "create_gravlax:lime_powder"
+    },
+    {
+      "item": "create_gravlax:lime_powder"
+    },
+    {
+      "item": "create_gravlax:lime_powder"
+    },
+    {
+      "item": "create_gravlax:lime_powder"
+    },
+    {
+      "item": "create_gravlax:lime_powder"
+    },
+    {
+      "item": "create_gravlax:lime_powder"
+    },
+    {
+      "item": "create_gravlax:lime_powder"
+    },
+    {
+      "item": "create_gravlax:lime_powder"
+    }
+  ],
+  "results": [
+    {
+      "amount": 1000,
+      "id": "create_gravlax:calcium_saccharate"
+    }
+  ]
+}

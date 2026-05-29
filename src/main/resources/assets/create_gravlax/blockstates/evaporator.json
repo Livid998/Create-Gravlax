@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "create_gravlax:block/evaporator"
+    },
+    "facing=east": {
+      "model": "create_gravlax:block/evaporator_directional",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "create_gravlax:block/evaporator_directional",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "create_gravlax:block/evaporator_directional"
+    },
+    "facing=west": {
+      "model": "create_gravlax:block/evaporator_directional",
+      "y": 90
+    }
+  }
+}

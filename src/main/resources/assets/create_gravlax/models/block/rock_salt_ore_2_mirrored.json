@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_mirrored_all",
+  "textures": {
+    "all": "create_gravlax:block/rock_salt_ore_2"
+  }
+}

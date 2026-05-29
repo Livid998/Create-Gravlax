@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "create_gravlax:beetroot_crate"
+    }
+  ],
+  "result": {
+    "id": "minecraft:beetroot",
+    "count": 9
+  }
+}

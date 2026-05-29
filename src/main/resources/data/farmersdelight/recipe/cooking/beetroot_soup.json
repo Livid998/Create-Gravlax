@@ -1,0 +1,30 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "farmersdelight"
+    }
+  ],
+  "type": "farmersdelight:cooking",
+  "container": {
+    "count": 1,
+    "id": "minecraft:bowl"
+  },
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "tag": "create_gravlax:cooking_beetroots"
+    },
+    {
+      "tag": "create_gravlax:cooking_beetroots"
+    },
+    {
+      "tag": "create_gravlax:cooking_beetroots"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "count": 1,
+    "id": "minecraft:beetroot_soup"
+  }
+}

@@ -1,0 +1,2065 @@
+{
+  "parent": "block/block",
+  "ambientocclusion": false,
+  "render_type": "minecraft:cutout_mipped",
+  "textures": {
+    "outer": "create_gravlax:block/centrifuge",
+    "inner": "create_gravlax:block/centrifuge_inner",
+    "base": "create_gravlax:block/centrifuge_base",
+    "particle": "create_gravlax:block/centrifuge",
+    "glass": "create_gravlax:block/centrifuge_glass",
+    "hood": "create:block/brass_casing",
+    "hood_hole": "create_gravlax:block/centrifuge_hood_hole",
+    "shaft_side": "create:block/axis",
+    "shaft_end": "create:block/axis_top",
+    "shaft_opening": "create:block/brass_gearbox"
+  },
+  "elements": [
+    {
+      "name": "Visible lower flange upper body",
+      "from": [
+        0,
+        2,
+        0
+      ],
+      "to": [
+        16,
+        4,
+        16
+      ],
+      "faces": {
+        "north": {
+          "texture": "#base",
+          "uv": [
+            0,
+            14,
+            16,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#base",
+          "uv": [
+            0,
+            14,
+            16,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#base",
+          "uv": [
+            0,
+            14,
+            16,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#base",
+          "uv": [
+            0,
+            14,
+            16,
+            16
+          ]
+        },
+        "up": {
+          "texture": "#base",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "name": "Lower flange collar north",
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        2,
+        2
+      ],
+      "faces": {
+        "north": {
+          "texture": "#base",
+          "uv": [
+            0,
+            12,
+            16,
+            14
+          ]
+        },
+        "south": {
+          "texture": "#base",
+          "uv": [
+            0,
+            12,
+            16,
+            14
+          ]
+        },
+        "east": {
+          "texture": "#base",
+          "uv": [
+            0,
+            12,
+            2,
+            14
+          ]
+        },
+        "west": {
+          "texture": "#base",
+          "uv": [
+            0,
+            12,
+            2,
+            14
+          ]
+        },
+        "up": {
+          "texture": "#base",
+          "uv": [
+            0,
+            0,
+            16,
+            2
+          ]
+        },
+        "down": {
+          "texture": "#base",
+          "uv": [
+            0,
+            0,
+            16,
+            2
+          ]
+        }
+      }
+    },
+    {
+      "name": "Lower flange collar south",
+      "from": [
+        0,
+        0,
+        14
+      ],
+      "to": [
+        16,
+        2,
+        16
+      ],
+      "faces": {
+        "north": {
+          "texture": "#base",
+          "uv": [
+            0,
+            12,
+            16,
+            14
+          ]
+        },
+        "south": {
+          "texture": "#base",
+          "uv": [
+            0,
+            12,
+            16,
+            14
+          ]
+        },
+        "east": {
+          "texture": "#base",
+          "uv": [
+            14,
+            12,
+            16,
+            14
+          ]
+        },
+        "west": {
+          "texture": "#base",
+          "uv": [
+            14,
+            12,
+            16,
+            14
+          ]
+        },
+        "up": {
+          "texture": "#base",
+          "uv": [
+            0,
+            14,
+            16,
+            16
+          ]
+        },
+        "down": {
+          "texture": "#base",
+          "uv": [
+            0,
+            14,
+            16,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "name": "Lower flange collar west",
+      "from": [
+        0,
+        0,
+        2
+      ],
+      "to": [
+        2,
+        2,
+        14
+      ],
+      "faces": {
+        "north": {
+          "texture": "#base",
+          "uv": [
+            0,
+            12,
+            2,
+            14
+          ]
+        },
+        "south": {
+          "texture": "#base",
+          "uv": [
+            0,
+            12,
+            2,
+            14
+          ]
+        },
+        "east": {
+          "texture": "#base",
+          "uv": [
+            2,
+            12,
+            14,
+            14
+          ]
+        },
+        "west": {
+          "texture": "#base",
+          "uv": [
+            2,
+            12,
+            14,
+            14
+          ]
+        },
+        "up": {
+          "texture": "#base",
+          "uv": [
+            0,
+            2,
+            2,
+            14
+          ]
+        },
+        "down": {
+          "texture": "#base",
+          "uv": [
+            0,
+            2,
+            2,
+            14
+          ]
+        }
+      }
+    },
+    {
+      "name": "Lower flange collar east",
+      "from": [
+        14,
+        0,
+        2
+      ],
+      "to": [
+        16,
+        2,
+        14
+      ],
+      "faces": {
+        "north": {
+          "texture": "#base",
+          "uv": [
+            14,
+            12,
+            16,
+            14
+          ]
+        },
+        "south": {
+          "texture": "#base",
+          "uv": [
+            14,
+            12,
+            16,
+            14
+          ]
+        },
+        "east": {
+          "texture": "#base",
+          "uv": [
+            2,
+            12,
+            14,
+            14
+          ]
+        },
+        "west": {
+          "texture": "#base",
+          "uv": [
+            2,
+            12,
+            14,
+            14
+          ]
+        },
+        "up": {
+          "texture": "#base",
+          "uv": [
+            14,
+            2,
+            16,
+            14
+          ]
+        },
+        "down": {
+          "texture": "#base",
+          "uv": [
+            14,
+            2,
+            16,
+            14
+          ]
+        }
+      }
+    },
+    {
+      "name": "Recessed shaft opening plate 1px",
+      "from": [
+        2.0,
+        0.99,
+        2.0
+      ],
+      "to": [
+        14.0,
+        1.0,
+        14.0
+      ],
+      "faces": {
+        "down": {
+          "texture": "#shaft_opening",
+          "uv": [
+            2.0,
+            2.0,
+            14.0,
+            14.0
+          ]
+        },
+        "up": {
+          "texture": "#shaft_opening",
+          "uv": [
+            2.0,
+            2.0,
+            14.0,
+            14.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "Inner basket floor",
+      "from": [
+        3,
+        4,
+        3
+      ],
+      "to": [
+        13,
+        5,
+        13
+      ],
+      "faces": {
+        "north": {
+          "texture": "#inner",
+          "uv": [
+            3,
+            11,
+            13,
+            12
+          ]
+        },
+        "south": {
+          "texture": "#inner",
+          "uv": [
+            3,
+            11,
+            13,
+            12
+          ]
+        },
+        "east": {
+          "texture": "#inner",
+          "uv": [
+            3,
+            11,
+            13,
+            12
+          ]
+        },
+        "west": {
+          "texture": "#inner",
+          "uv": [
+            3,
+            11,
+            13,
+            12
+          ]
+        },
+        "up": {
+          "texture": "#inner",
+          "uv": [
+            3,
+            3,
+            13,
+            13
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        1,
+        4,
+        1
+      ],
+      "to": [
+        5,
+        14,
+        3
+      ],
+      "faces": {
+        "north": {
+          "texture": "#outer",
+          "uv": [
+            1,
+            4,
+            5,
+            14
+          ]
+        },
+        "south": {
+          "texture": "#inner",
+          "uv": [
+            1,
+            4,
+            5,
+            14
+          ]
+        },
+        "east": {
+          "texture": "#outer",
+          "uv": [
+            1,
+            4,
+            3,
+            14
+          ]
+        },
+        "west": {
+          "texture": "#outer",
+          "uv": [
+            1,
+            4,
+            3,
+            14
+          ]
+        },
+        "up": {
+          "texture": "#outer",
+          "uv": [
+            1,
+            1,
+            5,
+            3
+          ]
+        },
+        "down": {
+          "texture": "#outer",
+          "uv": [
+            1,
+            1,
+            5,
+            3
+          ]
+        }
+      },
+      "name": "Window frame north 1"
+    },
+    {
+      "from": [
+        5,
+        4,
+        1
+      ],
+      "to": [
+        11,
+        6,
+        3
+      ],
+      "faces": {
+        "north": {
+          "texture": "#outer",
+          "uv": [
+            5,
+            4,
+            11,
+            6
+          ]
+        },
+        "south": {
+          "texture": "#inner",
+          "uv": [
+            5,
+            4,
+            11,
+            6
+          ]
+        },
+        "east": {
+          "texture": "#outer",
+          "uv": [
+            1,
+            4,
+            3,
+            6
+          ]
+        },
+        "west": {
+          "texture": "#outer",
+          "uv": [
+            1,
+            4,
+            3,
+            6
+          ]
+        },
+        "up": {
+          "texture": "#outer",
+          "uv": [
+            5,
+            1,
+            11,
+            3
+          ]
+        },
+        "down": {
+          "texture": "#outer",
+          "uv": [
+            5,
+            1,
+            11,
+            3
+          ]
+        }
+      },
+      "name": "Window frame north 2"
+    },
+    {
+      "from": [
+        5,
+        11,
+        1
+      ],
+      "to": [
+        11,
+        14,
+        3
+      ],
+      "faces": {
+        "north": {
+          "texture": "#outer",
+          "uv": [
+            5,
+            11,
+            11,
+            14
+          ]
+        },
+        "south": {
+          "texture": "#inner",
+          "uv": [
+            5,
+            11,
+            11,
+            14
+          ]
+        },
+        "east": {
+          "texture": "#outer",
+          "uv": [
+            1,
+            11,
+            3,
+            14
+          ]
+        },
+        "west": {
+          "texture": "#outer",
+          "uv": [
+            1,
+            11,
+            3,
+            14
+          ]
+        },
+        "up": {
+          "texture": "#outer",
+          "uv": [
+            5,
+            1,
+            11,
+            3
+          ]
+        },
+        "down": {
+          "texture": "#outer",
+          "uv": [
+            5,
+            1,
+            11,
+            3
+          ]
+        }
+      },
+      "name": "Window frame north 3"
+    },
+    {
+      "from": [
+        11,
+        4,
+        1
+      ],
+      "to": [
+        15,
+        14,
+        3
+      ],
+      "faces": {
+        "north": {
+          "texture": "#outer",
+          "uv": [
+            11,
+            4,
+            15,
+            14
+          ]
+        },
+        "south": {
+          "texture": "#inner",
+          "uv": [
+            11,
+            4,
+            15,
+            14
+          ]
+        },
+        "east": {
+          "texture": "#outer",
+          "uv": [
+            1,
+            4,
+            3,
+            14
+          ]
+        },
+        "west": {
+          "texture": "#outer",
+          "uv": [
+            1,
+            4,
+            3,
+            14
+          ]
+        },
+        "up": {
+          "texture": "#outer",
+          "uv": [
+            11,
+            1,
+            15,
+            3
+          ]
+        },
+        "down": {
+          "texture": "#outer",
+          "uv": [
+            11,
+            1,
+            15,
+            3
+          ]
+        }
+      },
+      "name": "Window frame north 4"
+    },
+    {
+      "from": [
+        1,
+        4,
+        13
+      ],
+      "to": [
+        5,
+        14,
+        15
+      ],
+      "faces": {
+        "south": {
+          "texture": "#outer",
+          "uv": [
+            1,
+            4,
+            5,
+            14
+          ]
+        },
+        "north": {
+          "texture": "#inner",
+          "uv": [
+            1,
+            4,
+            5,
+            14
+          ]
+        },
+        "east": {
+          "texture": "#outer",
+          "uv": [
+            13,
+            4,
+            15,
+            14
+          ]
+        },
+        "west": {
+          "texture": "#outer",
+          "uv": [
+            13,
+            4,
+            15,
+            14
+          ]
+        },
+        "up": {
+          "texture": "#outer",
+          "uv": [
+            1,
+            13,
+            5,
+            15
+          ]
+        },
+        "down": {
+          "texture": "#outer",
+          "uv": [
+            1,
+            13,
+            5,
+            15
+          ]
+        }
+      },
+      "name": "Window frame south 1"
+    },
+    {
+      "from": [
+        5,
+        4,
+        13
+      ],
+      "to": [
+        11,
+        6,
+        15
+      ],
+      "faces": {
+        "south": {
+          "texture": "#outer",
+          "uv": [
+            5,
+            4,
+            11,
+            6
+          ]
+        },
+        "north": {
+          "texture": "#inner",
+          "uv": [
+            5,
+            4,
+            11,
+            6
+          ]
+        },
+        "east": {
+          "texture": "#outer",
+          "uv": [
+            13,
+            4,
+            15,
+            6
+          ]
+        },
+        "west": {
+          "texture": "#outer",
+          "uv": [
+            13,
+            4,
+            15,
+            6
+          ]
+        },
+        "up": {
+          "texture": "#outer",
+          "uv": [
+            5,
+            13,
+            11,
+            15
+          ]
+        },
+        "down": {
+          "texture": "#outer",
+          "uv": [
+            5,
+            13,
+            11,
+            15
+          ]
+        }
+      },
+      "name": "Window frame south 2"
+    },
+    {
+      "from": [
+        5,
+        11,
+        13
+      ],
+      "to": [
+        11,
+        14,
+        15
+      ],
+      "faces": {
+        "south": {
+          "texture": "#outer",
+          "uv": [
+            5,
+            11,
+            11,
+            14
+          ]
+        },
+        "north": {
+          "texture": "#inner",
+          "uv": [
+            5,
+            11,
+            11,
+            14
+          ]
+        },
+        "east": {
+          "texture": "#outer",
+          "uv": [
+            13,
+            11,
+            15,
+            14
+          ]
+        },
+        "west": {
+          "texture": "#outer",
+          "uv": [
+            13,
+            11,
+            15,
+            14
+          ]
+        },
+        "up": {
+          "texture": "#outer",
+          "uv": [
+            5,
+            13,
+            11,
+            15
+          ]
+        },
+        "down": {
+          "texture": "#outer",
+          "uv": [
+            5,
+            13,
+            11,
+            15
+          ]
+        }
+      },
+      "name": "Window frame south 3"
+    },
+    {
+      "from": [
+        11,
+        4,
+        13
+      ],
+      "to": [
+        15,
+        14,
+        15
+      ],
+      "faces": {
+        "south": {
+          "texture": "#outer",
+          "uv": [
+            11,
+            4,
+            15,
+            14
+          ]
+        },
+        "north": {
+          "texture": "#inner",
+          "uv": [
+            11,
+            4,
+            15,
+            14
+          ]
+        },
+        "east": {
+          "texture": "#outer",
+          "uv": [
+            13,
+            4,
+            15,
+            14
+          ]
+        },
+        "west": {
+          "texture": "#outer",
+          "uv": [
+            13,
+            4,
+            15,
+            14
+          ]
+        },
+        "up": {
+          "texture": "#outer",
+          "uv": [
+            11,
+            13,
+            15,
+            15
+          ]
+        },
+        "down": {
+          "texture": "#outer",
+          "uv": [
+            11,
+            13,
+            15,
+            15
+          ]
+        }
+      },
+      "name": "Window frame south 4"
+    },
+    {
+      "from": [
+        1,
+        4,
+        3
+      ],
+      "to": [
+        3,
+        14,
+        5
+      ],
+      "faces": {
+        "west": {
+          "texture": "#outer",
+          "uv": [
+            3,
+            4,
+            5,
+            14
+          ]
+        },
+        "east": {
+          "texture": "#inner",
+          "uv": [
+            3,
+            4,
+            5,
+            14
+          ]
+        },
+        "north": {
+          "texture": "#outer",
+          "uv": [
+            1,
+            4,
+            3,
+            14
+          ]
+        },
+        "south": {
+          "texture": "#outer",
+          "uv": [
+            1,
+            4,
+            3,
+            14
+          ]
+        },
+        "up": {
+          "texture": "#outer",
+          "uv": [
+            1,
+            3,
+            3,
+            5
+          ]
+        },
+        "down": {
+          "texture": "#outer",
+          "uv": [
+            1,
+            3,
+            3,
+            5
+          ]
+        }
+      },
+      "name": "Window frame west 1"
+    },
+    {
+      "from": [
+        1,
+        4,
+        5
+      ],
+      "to": [
+        3,
+        6,
+        11
+      ],
+      "faces": {
+        "west": {
+          "texture": "#outer",
+          "uv": [
+            5,
+            4,
+            11,
+            6
+          ]
+        },
+        "east": {
+          "texture": "#inner",
+          "uv": [
+            5,
+            4,
+            11,
+            6
+          ]
+        },
+        "north": {
+          "texture": "#outer",
+          "uv": [
+            1,
+            4,
+            3,
+            6
+          ]
+        },
+        "south": {
+          "texture": "#outer",
+          "uv": [
+            1,
+            4,
+            3,
+            6
+          ]
+        },
+        "up": {
+          "texture": "#outer",
+          "uv": [
+            1,
+            5,
+            3,
+            11
+          ]
+        },
+        "down": {
+          "texture": "#outer",
+          "uv": [
+            1,
+            5,
+            3,
+            11
+          ]
+        }
+      },
+      "name": "Window frame west 2"
+    },
+    {
+      "from": [
+        1,
+        11,
+        5
+      ],
+      "to": [
+        3,
+        14,
+        11
+      ],
+      "faces": {
+        "west": {
+          "texture": "#outer",
+          "uv": [
+            5,
+            11,
+            11,
+            14
+          ]
+        },
+        "east": {
+          "texture": "#inner",
+          "uv": [
+            5,
+            11,
+            11,
+            14
+          ]
+        },
+        "north": {
+          "texture": "#outer",
+          "uv": [
+            1,
+            11,
+            3,
+            14
+          ]
+        },
+        "south": {
+          "texture": "#outer",
+          "uv": [
+            1,
+            11,
+            3,
+            14
+          ]
+        },
+        "up": {
+          "texture": "#outer",
+          "uv": [
+            1,
+            5,
+            3,
+            11
+          ]
+        },
+        "down": {
+          "texture": "#outer",
+          "uv": [
+            1,
+            5,
+            3,
+            11
+          ]
+        }
+      },
+      "name": "Window frame west 3"
+    },
+    {
+      "from": [
+        1,
+        4,
+        11
+      ],
+      "to": [
+        3,
+        14,
+        13
+      ],
+      "faces": {
+        "west": {
+          "texture": "#outer",
+          "uv": [
+            11,
+            4,
+            13,
+            14
+          ]
+        },
+        "east": {
+          "texture": "#inner",
+          "uv": [
+            11,
+            4,
+            13,
+            14
+          ]
+        },
+        "north": {
+          "texture": "#outer",
+          "uv": [
+            1,
+            4,
+            3,
+            14
+          ]
+        },
+        "south": {
+          "texture": "#outer",
+          "uv": [
+            1,
+            4,
+            3,
+            14
+          ]
+        },
+        "up": {
+          "texture": "#outer",
+          "uv": [
+            1,
+            11,
+            3,
+            13
+          ]
+        },
+        "down": {
+          "texture": "#outer",
+          "uv": [
+            1,
+            11,
+            3,
+            13
+          ]
+        }
+      },
+      "name": "Window frame west 4"
+    },
+    {
+      "from": [
+        13,
+        4,
+        3
+      ],
+      "to": [
+        15,
+        14,
+        5
+      ],
+      "faces": {
+        "east": {
+          "texture": "#outer",
+          "uv": [
+            3,
+            4,
+            5,
+            14
+          ]
+        },
+        "west": {
+          "texture": "#inner",
+          "uv": [
+            3,
+            4,
+            5,
+            14
+          ]
+        },
+        "north": {
+          "texture": "#outer",
+          "uv": [
+            13,
+            4,
+            15,
+            14
+          ]
+        },
+        "south": {
+          "texture": "#outer",
+          "uv": [
+            13,
+            4,
+            15,
+            14
+          ]
+        },
+        "up": {
+          "texture": "#outer",
+          "uv": [
+            13,
+            3,
+            15,
+            5
+          ]
+        },
+        "down": {
+          "texture": "#outer",
+          "uv": [
+            13,
+            3,
+            15,
+            5
+          ]
+        }
+      },
+      "name": "Window frame east 1"
+    },
+    {
+      "from": [
+        13,
+        4,
+        5
+      ],
+      "to": [
+        15,
+        6,
+        11
+      ],
+      "faces": {
+        "east": {
+          "texture": "#outer",
+          "uv": [
+            5,
+            4,
+            11,
+            6
+          ]
+        },
+        "west": {
+          "texture": "#inner",
+          "uv": [
+            5,
+            4,
+            11,
+            6
+          ]
+        },
+        "north": {
+          "texture": "#outer",
+          "uv": [
+            13,
+            4,
+            15,
+            6
+          ]
+        },
+        "south": {
+          "texture": "#outer",
+          "uv": [
+            13,
+            4,
+            15,
+            6
+          ]
+        },
+        "up": {
+          "texture": "#outer",
+          "uv": [
+            13,
+            5,
+            15,
+            11
+          ]
+        },
+        "down": {
+          "texture": "#outer",
+          "uv": [
+            13,
+            5,
+            15,
+            11
+          ]
+        }
+      },
+      "name": "Window frame east 2"
+    },
+    {
+      "from": [
+        13,
+        11,
+        5
+      ],
+      "to": [
+        15,
+        14,
+        11
+      ],
+      "faces": {
+        "east": {
+          "texture": "#outer",
+          "uv": [
+            5,
+            11,
+            11,
+            14
+          ]
+        },
+        "west": {
+          "texture": "#inner",
+          "uv": [
+            5,
+            11,
+            11,
+            14
+          ]
+        },
+        "north": {
+          "texture": "#outer",
+          "uv": [
+            13,
+            11,
+            15,
+            14
+          ]
+        },
+        "south": {
+          "texture": "#outer",
+          "uv": [
+            13,
+            11,
+            15,
+            14
+          ]
+        },
+        "up": {
+          "texture": "#outer",
+          "uv": [
+            13,
+            5,
+            15,
+            11
+          ]
+        },
+        "down": {
+          "texture": "#outer",
+          "uv": [
+            13,
+            5,
+            15,
+            11
+          ]
+        }
+      },
+      "name": "Window frame east 3"
+    },
+    {
+      "from": [
+        13,
+        4,
+        11
+      ],
+      "to": [
+        15,
+        14,
+        13
+      ],
+      "faces": {
+        "east": {
+          "texture": "#outer",
+          "uv": [
+            11,
+            4,
+            13,
+            14
+          ]
+        },
+        "west": {
+          "texture": "#inner",
+          "uv": [
+            11,
+            4,
+            13,
+            14
+          ]
+        },
+        "north": {
+          "texture": "#outer",
+          "uv": [
+            13,
+            4,
+            15,
+            14
+          ]
+        },
+        "south": {
+          "texture": "#outer",
+          "uv": [
+            13,
+            4,
+            15,
+            14
+          ]
+        },
+        "up": {
+          "texture": "#outer",
+          "uv": [
+            13,
+            11,
+            15,
+            13
+          ]
+        },
+        "down": {
+          "texture": "#outer",
+          "uv": [
+            13,
+            11,
+            15,
+            13
+          ]
+        }
+      },
+      "name": "Window frame east 4"
+    },
+    {
+      "name": "Inner support ring north",
+      "from": [
+        3,
+        5,
+        3
+      ],
+      "to": [
+        13,
+        6,
+        4
+      ],
+      "faces": {
+        "north": {
+          "texture": "#base",
+          "uv": [
+            3,
+            10,
+            13,
+            11
+          ]
+        },
+        "south": {
+          "texture": "#inner",
+          "uv": [
+            3,
+            10,
+            13,
+            11
+          ]
+        },
+        "up": {
+          "texture": "#base",
+          "uv": [
+            3,
+            3,
+            13,
+            4
+          ]
+        }
+      }
+    },
+    {
+      "name": "Inner support ring south",
+      "from": [
+        3,
+        5,
+        12
+      ],
+      "to": [
+        13,
+        6,
+        13
+      ],
+      "faces": {
+        "south": {
+          "texture": "#base",
+          "uv": [
+            3,
+            10,
+            13,
+            11
+          ]
+        },
+        "north": {
+          "texture": "#inner",
+          "uv": [
+            3,
+            10,
+            13,
+            11
+          ]
+        },
+        "up": {
+          "texture": "#base",
+          "uv": [
+            3,
+            12,
+            13,
+            13
+          ]
+        }
+      }
+    },
+    {
+      "name": "Inner support ring west",
+      "from": [
+        3,
+        5,
+        4
+      ],
+      "to": [
+        4,
+        6,
+        12
+      ],
+      "faces": {
+        "west": {
+          "texture": "#base",
+          "uv": [
+            4,
+            10,
+            12,
+            11
+          ]
+        },
+        "east": {
+          "texture": "#inner",
+          "uv": [
+            4,
+            10,
+            12,
+            11
+          ]
+        },
+        "up": {
+          "texture": "#base",
+          "uv": [
+            4,
+            3,
+            12,
+            4
+          ]
+        }
+      }
+    },
+    {
+      "name": "Inner support ring east",
+      "from": [
+        12,
+        5,
+        4
+      ],
+      "to": [
+        13,
+        6,
+        12
+      ],
+      "faces": {
+        "east": {
+          "texture": "#base",
+          "uv": [
+            4,
+            10,
+            12,
+            11
+          ]
+        },
+        "west": {
+          "texture": "#inner",
+          "uv": [
+            4,
+            10,
+            12,
+            11
+          ]
+        },
+        "up": {
+          "texture": "#base",
+          "uv": [
+            4,
+            12,
+            12,
+            13
+          ]
+        }
+      }
+    },
+    {
+      "name": "Glass window north",
+      "from": [
+        4.3,
+        5.35,
+        2.01
+      ],
+      "to": [
+        11.7,
+        11.65,
+        2.99
+      ],
+      "faces": {
+        "north": {
+          "texture": "#glass",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#glass",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#glass",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#glass",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "up": {
+          "texture": "#glass",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "down": {
+          "texture": "#glass",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "name": "Glass window south",
+      "from": [
+        4.3,
+        5.35,
+        13.01
+      ],
+      "to": [
+        11.7,
+        11.65,
+        13.99
+      ],
+      "faces": {
+        "north": {
+          "texture": "#glass",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#glass",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#glass",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#glass",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "up": {
+          "texture": "#glass",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "down": {
+          "texture": "#glass",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "name": "Glass window west",
+      "from": [
+        2.01,
+        5.35,
+        4.3
+      ],
+      "to": [
+        2.99,
+        11.65,
+        11.7
+      ],
+      "faces": {
+        "north": {
+          "texture": "#glass",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#glass",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#glass",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#glass",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "up": {
+          "texture": "#glass",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "down": {
+          "texture": "#glass",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "name": "Glass window east",
+      "from": [
+        13.01,
+        5.35,
+        4.3
+      ],
+      "to": [
+        13.99,
+        11.65,
+        11.7
+      ],
+      "faces": {
+        "north": {
+          "texture": "#glass",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#glass",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#glass",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#glass",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "up": {
+          "texture": "#glass",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "down": {
+          "texture": "#glass",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "name": "Hood body flat for recipe filter",
+      "from": [
+        4.0,
+        15.0,
+        4.0
+      ],
+      "to": [
+        12.0,
+        17.0,
+        12.0
+      ],
+      "faces": {
+        "north": {
+          "texture": "#hood",
+          "uv": [
+            4.0,
+            4.0,
+            12.0,
+            6.0
+          ]
+        },
+        "south": {
+          "texture": "#hood",
+          "uv": [
+            4.0,
+            4.0,
+            12.0,
+            6.0
+          ]
+        },
+        "east": {
+          "texture": "#hood",
+          "uv": [
+            4.0,
+            4.0,
+            12.0,
+            6.0
+          ]
+        },
+        "west": {
+          "texture": "#hood",
+          "uv": [
+            4.0,
+            4.0,
+            12.0,
+            6.0
+          ]
+        },
+        "up": {
+          "texture": "#hood",
+          "uv": [
+            4.0,
+            4.0,
+            12.0,
+            12.0
+          ]
+        },
+        "down": {
+          "texture": "#hood",
+          "uv": [
+            4.0,
+            4.0,
+            12.0,
+            12.0
+          ]
+        }
+      }
+    }
+  ]
+}

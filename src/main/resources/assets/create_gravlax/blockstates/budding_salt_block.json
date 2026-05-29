@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "create_gravlax:block/budding_salt_block"
+    }
+  }
+}

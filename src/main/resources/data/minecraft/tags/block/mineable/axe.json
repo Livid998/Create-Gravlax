@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "create_gravlax:sugar_beet_crate",
+    "create_gravlax:beetroot_crate"
+  ]
+}

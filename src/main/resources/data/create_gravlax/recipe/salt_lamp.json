@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " S ",
+    " T ",
+    " W "
+  ],
+  "key": {
+    "S": {
+      "item": "create_gravlax:raw_rock_salt_block"
+    },
+    "T": {
+      "item": "minecraft:torch"
+    },
+    "W": {
+      "tag": "minecraft:wooden_slabs"
+    }
+  },
+  "result": {
+    "id": "create_gravlax:salt_lamp",
+    "count": 1
+  }
+}

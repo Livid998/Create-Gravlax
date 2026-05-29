@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " C ",
+    "FTF",
+    " A "
+  ],
+  "key": {
+    "C": {
+      "item": "create:copper_casing"
+    },
+    "F": {
+      "item": "create:fluid_tank"
+    },
+    "T": {
+      "item": "create:basin"
+    },
+    "A": {
+      "item": "create:andesite_alloy"
+    }
+  },
+  "result": {
+    "id": "create_gravlax:evaporator",
+    "count": 1
+  }
+}

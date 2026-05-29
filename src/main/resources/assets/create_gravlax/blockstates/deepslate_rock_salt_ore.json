@@ -1,0 +1,34 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "create_gravlax:block/deepslate_rock_salt_ore_1"
+      },
+      {
+        "model": "create_gravlax:block/deepslate_rock_salt_ore_1",
+        "y": 180
+      },
+      {
+        "model": "create_gravlax:block/deepslate_rock_salt_ore_1_mirrored"
+      },
+      {
+        "model": "create_gravlax:block/deepslate_rock_salt_ore_1_mirrored",
+        "y": 180
+      },
+      {
+        "model": "create_gravlax:block/deepslate_rock_salt_ore_2"
+      },
+      {
+        "model": "create_gravlax:block/deepslate_rock_salt_ore_2",
+        "y": 180
+      },
+      {
+        "model": "create_gravlax:block/deepslate_rock_salt_ore_2_mirrored"
+      },
+      {
+        "model": "create_gravlax:block/deepslate_rock_salt_ore_2_mirrored",
+        "y": 180
+      }
+    ]
+  }
+}

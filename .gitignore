@@ -1,0 +1,27 @@
+# Gradle
+.gradle/
+build/
+out/
+repo/
+
+# Minecraft / NeoForge run directories
+run/
+runs/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+.classpath
+.project
+.settings/
+
+# Build output and logs
+*.class
+*.jar
+*.log
+hs_err_pid*
+
+# OS
+.DS_Store
+Thumbs.db

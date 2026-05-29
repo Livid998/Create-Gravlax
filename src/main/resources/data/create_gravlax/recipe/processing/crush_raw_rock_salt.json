@@ -1,0 +1,15 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "create_gravlax:raw_rock_salt"
+    }
+  ],
+  "processingTime": 100,
+  "results": [
+    {
+      "id": "create_gravlax:salt",
+      "count": 2
+    }
+  ]
+}

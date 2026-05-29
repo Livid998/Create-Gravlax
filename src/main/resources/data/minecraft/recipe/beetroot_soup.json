@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "food",
+  "pattern": [
+    "BBB",
+    "BBB",
+    " O "
+  ],
+  "key": {
+    "B": {
+      "tag": "create_gravlax:cooking_beetroots"
+    },
+    "O": {
+      "item": "minecraft:bowl"
+    }
+  },
+  "result": {
+    "id": "minecraft:beetroot_soup",
+    "count": 1
+  }
+}

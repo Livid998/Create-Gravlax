@@ -1,0 +1,50 @@
+Create: Gravlax — Third-party notices
+=====================================
+
+Create: Gravlax original code and original assets are released under the MIT
+License. Third-party code and adapted assets remain subject to their original
+licences and notices.
+
+Salt by mortuusars
+------------------
+Source: mortuusars/Salt
+License file distributed by the source project: LICENSE.md (MIT license text)
+
+Create: Gravlax includes code and adapted assets derived from the salt system
+of Salt, ported and integrated into the salt-processing branch. This includes
+Salt, Raw Rock Salt, Rock Salt Ore and related generation, Salt Block, Budding
+Salt Block, salt buds, Salt Cluster, Salt Lamp and related supporting assets.
+
+Bundled license text:
+META-INF/create_gravlax/licenses/SALT_MIT_LICENSE.md
+
+Unused Textures by malcolmriley
+--------------------------------
+Source: malcolmriley/unused-textures
+License: Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Adapted assets include essence sprites, spice sprites, remedy bottle sprites
+and gravlax salmon sprites.
+
+Bundled license text:
+META-INF/create_gravlax/licenses/UNUSED_TEXTURES_CC_BY_4.0.txt
+
+Farmer's Delight by vectorwing
+------------------------------
+Source: vectorwing/FarmersDelight
+License: MIT License
+
+Adapted assets include crate textures, the Milk Bottle texture and the derived
+Milky Potion bottle variant.
+
+Bundled license text:
+META-INF/create_gravlax/licenses/FARMERS_DELIGHT_MIT.txt
+
+Centrifuge sound
+----------------
+Source sample: Laboratuvar Santrifüj Sesi by forza1903
+Platform: Pixabay Sound Effects
+License: Pixabay Content License
+
+The sample was edited into centrifuge_start.ogg, centrifuge_running.ogg and
+centrifuge_stop.ogg for in-game use. Attribution is included voluntarily.

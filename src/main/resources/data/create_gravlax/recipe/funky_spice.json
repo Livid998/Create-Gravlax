@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "create_gravlax:gravlax_cure"
+    },
+    {
+      "item": "create_gravlax:invisibility_essence"
+    }
+  ],
+  "result": {
+    "id": "create_gravlax:funky_spice",
+    "count": 1
+  }
+}

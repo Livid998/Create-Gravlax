@@ -1,0 +1,17 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "create_gravlax:dirty_beetroot"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:beetroot"
+    },
+    {
+      "chance": 0.3,
+      "id": "create_gravlax:mud_clump"
+    }
+  ]
+}

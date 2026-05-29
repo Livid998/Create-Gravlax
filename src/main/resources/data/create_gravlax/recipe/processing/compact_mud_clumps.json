@@ -1,0 +1,22 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "create_gravlax:mud_clump"
+    },
+    {
+      "item": "create_gravlax:mud_clump"
+    },
+    {
+      "item": "create_gravlax:mud_clump"
+    },
+    {
+      "item": "create_gravlax:mud_clump"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:mud"
+    }
+  ]
+}

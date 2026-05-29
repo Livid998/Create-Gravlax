@@ -1,0 +1,26 @@
+{
+  "centrifuge_start": {
+    "subtitle": "subtitles.create_gravlax.centrifuge",
+    "sounds": [
+      {
+        "name": "create_gravlax:centrifuge_start"
+      }
+    ]
+  },
+  "centrifuge_running": {
+    "subtitle": "subtitles.create_gravlax.centrifuge",
+    "sounds": [
+      {
+        "name": "create_gravlax:centrifuge_running"
+      }
+    ]
+  },
+  "centrifuge_stop": {
+    "subtitle": "subtitles.create_gravlax.centrifuge",
+    "sounds": [
+      {
+        "name": "create_gravlax:centrifuge_stop"
+      }
+    ]
+  }
+}

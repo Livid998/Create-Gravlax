@@ -1,0 +1,9 @@
+{
+  "type": "create:haunting",
+  "ingredients": [
+    { "item": "create_gravlax:red_raw_sugar" }
+  ],
+  "results": [
+    { "chance": 0.80, "id": "minecraft:redstone" }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": [
+    "create_gravlax:rock_salt_ore",
+    "create_gravlax:budding_salt_block"
+  ],
+  "step": "underground_ores"
+}

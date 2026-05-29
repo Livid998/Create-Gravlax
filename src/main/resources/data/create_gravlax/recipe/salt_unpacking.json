@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "create_gravlax:salt_block"
+    }
+  ],
+  "result": {
+    "id": "create_gravlax:salt",
+    "count": 9
+  }
+}

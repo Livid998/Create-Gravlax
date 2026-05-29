@@ -1,0 +1,44 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        { "type": "minecraft:item", "name": "create_gravlax:sugar_beet_seeds" }
+      ]
+    },
+    {
+      "conditions": [
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "create_gravlax:sugar_beet_crop",
+          "properties": { "age": "7" }
+        }
+      ],
+      "rolls": 1,
+      "entries": [
+        { "type": "minecraft:item", "name": "create_gravlax:dirty_sugar_beet" }
+      ]
+    },
+    {
+      "conditions": [
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "create_gravlax:sugar_beet_crop",
+          "properties": { "age": "7" }
+        }
+      ],
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "create_gravlax:sugar_beet_seeds",
+          "functions": [
+            { "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 0.0, "max": 2.0 } }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "create_gravlax:blocks/sugar_beet_crop"
+}

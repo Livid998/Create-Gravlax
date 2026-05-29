@@ -1,0 +1,14 @@
+{
+  "type": "create:haunting",
+  "ingredients": [
+    {
+      "item": "create_gravlax:gravlax_cure"
+    }
+  ],
+  "results": [
+    {
+      "chance": 0.2,
+      "id": "minecraft:redstone"
+    }
+  ]
+}

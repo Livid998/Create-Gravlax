@@ -1,0 +1,47 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "type": "neoforge:single",
+      "amount": 1000,
+      "fluid": "create_gravlax:waste_water"
+    },
+    {
+      "item": "create_gravlax:lime_powder"
+    },
+    {
+      "item": "create_gravlax:lime_powder"
+    },
+    {
+      "item": "create_gravlax:lime_powder"
+    },
+    {
+      "item": "create_gravlax:lime_powder"
+    },
+    {
+      "item": "create_gravlax:lime_powder"
+    },
+    {
+      "item": "create_gravlax:lime_residue"
+    },
+    {
+      "item": "create_gravlax:lime_residue"
+    },
+    {
+      "item": "create_gravlax:lime_residue"
+    },
+    {
+      "item": "create_gravlax:lime_residue"
+    },
+    {
+      "item": "create_gravlax:lime_residue"
+    }
+  ],
+  "results": [
+    {
+      "amount": 1000,
+      "id": "create_gravlax:lime_water"
+    }
+  ]
+}

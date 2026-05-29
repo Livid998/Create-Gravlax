@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "age=0": { "model": "create_gravlax:block/sugar_beet_stage0" },
+    "age=1": { "model": "create_gravlax:block/sugar_beet_stage0" },
+    "age=2": { "model": "create_gravlax:block/sugar_beet_stage1" },
+    "age=3": { "model": "create_gravlax:block/sugar_beet_stage1" },
+    "age=4": { "model": "create_gravlax:block/sugar_beet_stage2" },
+    "age=5": { "model": "create_gravlax:block/sugar_beet_stage2" },
+    "age=6": { "model": "create_gravlax:block/sugar_beet_stage2" },
+    "age=7": { "model": "create_gravlax:block/sugar_beet_stage3" }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#create_gravlax:can_be_seasoned_savory",
+    "#create_gravlax:can_be_seasoned_sweet"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "create_gravlax:salt"
+    },
+    {
+      "item": "create_gravlax:healing_essence"
+    }
+  ],
+  "result": {
+    "id": "create_gravlax:umami_spice",
+    "count": 1
+  }
+}

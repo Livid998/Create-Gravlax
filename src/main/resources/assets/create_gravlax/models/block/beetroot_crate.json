@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "create_gravlax:block/beetroot_crate_top",
+    "bottom": "create_gravlax:block/beetroot_crate_side",
+    "side": "create_gravlax:block/beetroot_crate_side"
+  }
+}

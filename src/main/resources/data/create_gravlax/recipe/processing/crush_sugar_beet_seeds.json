@@ -1,0 +1,15 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "create_gravlax:sugar_beet"
+    }
+  ],
+  "processing_time": 70,
+  "results": [
+    {
+      "chance": 0.1,
+      "id": "create_gravlax:sugar_beet_seeds"
+    }
+  ]
+}

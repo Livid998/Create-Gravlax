@@ -1,0 +1,10 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    { "item": "minecraft:beetroot" }
+  ],
+  "processing_time": 50,
+  "results": [
+    { "count": 2, "id": "create_gravlax:red_beet_cossettes" }
+  ]
+}

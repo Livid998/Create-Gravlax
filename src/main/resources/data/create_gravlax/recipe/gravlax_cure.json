@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "create_gravlax:salt"
+    },
+    {
+      "item": "create_gravlax:red_raw_sugar"
+    }
+  ],
+  "result": {
+    "id": "create_gravlax:gravlax_cure",
+    "count": 1
+  }
+}

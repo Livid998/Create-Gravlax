@@ -1,0 +1,21 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "create_gravlax:calcium_saccharate_paste"
+    }
+  ],
+  "results": [
+    {
+      "id": "create_gravlax:sugar_crystal"
+    },
+    {
+      "id": "create_gravlax:sugar_crystal",
+      "chance": 0.5
+    },
+    {
+      "id": "create_gravlax:lime_residue",
+      "chance": 0.8
+    }
+  ]
+}

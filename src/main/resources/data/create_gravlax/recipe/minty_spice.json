@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "create_gravlax:water_breathing_essence"
+    }
+  ],
+  "result": {
+    "id": "create_gravlax:minty_spice",
+    "count": 1
+  }
+}

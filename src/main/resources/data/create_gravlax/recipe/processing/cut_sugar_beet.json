@@ -1,0 +1,10 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    { "item": "create_gravlax:sugar_beet" }
+  ],
+  "processing_time": 50,
+  "results": [
+    { "count": 2, "id": "create_gravlax:sugar_beet_cossettes" }
+  ]
+}

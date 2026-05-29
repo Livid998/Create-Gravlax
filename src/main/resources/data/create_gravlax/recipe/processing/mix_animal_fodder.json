@@ -1,0 +1,10 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    { "item": "create_gravlax:beet_pulp" },
+    { "item": "minecraft:wheat" }
+  ],
+  "results": [
+    { "count": 2, "id": "create_gravlax:animal_fodder" }
+  ]
+}

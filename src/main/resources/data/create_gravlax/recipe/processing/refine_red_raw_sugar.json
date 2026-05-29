@@ -1,0 +1,17 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "create_gravlax:red_raw_sugar"
+    }
+  ],
+  "results": [
+    {
+      "id": "create_gravlax:sugar_crystal"
+    },
+    {
+      "count": 2,
+      "id": "minecraft:red_dye"
+    }
+  ]
+}
