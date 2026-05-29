@@ -43,19 +43,16 @@ Use **Java 21** and a compatible Gradle installation to build the mod:
 gradle build
 ```
 
-The project intentionally does not bundle local convenience compilation
-scripts.
 
 ## License
 
-The integrated salt-processing branch includes code and adapted assets derived from **Salt by mortuusars**.
+The integrated salt-processing branch includes code and adapted assets derived from **Salt by Mortuusars**.
 
 
 Original Create: Gravlax code and original assets are released under the
 [MIT License](LICENSE.txt).
 
-Adapted third-party assets and the centrifuge audio retain their respective
-licences and attributions. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+Adapted third-party assets retain their respective licences and attributions. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
 
 ## Author
 
